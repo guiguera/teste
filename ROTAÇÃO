@@ -1,0 +1,14 @@
+F3::pause,toggle
+
+    F2::
+        Loop, {
+            ControlSend, ahk_parent, {F5}, ahk_exe client.exe
+            Sleep 2000
+            ControlSend, ahk_parent, {F6}, ahk_exe client.exe
+            Sleep 2000
+            ControlSend, ahk_parent, {F5}, ahk_exe client.exe
+            Sleep 2000
+            ControlSend, ahk_parent, {F7}, ahk_exe client.exe
+            Sleep 2000
+        }
+return
